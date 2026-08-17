@@ -381,7 +381,9 @@ function main() {
     });
     console.log("   ✓ formatted with Biome");
   } catch {
-    console.warn("⚠️  Biome formatting failed — generated files may need manual formatting");
+    console.warn(
+      "⚠️  Biome formatting failed — generated files may need manual formatting",
+    );
   }
 
   console.log(`\n✅ Generated ${names.length} React illustration components`);
