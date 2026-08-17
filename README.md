@@ -1,17 +1,17 @@
-# @naxit/comete-illustrations
+# @aexae/comete-illustrations
 
 Bibliothèque d'illustrations vectorielles Comète — composants React pour les états contextuels (empty states, onboarding, erreurs, succès…).
 
 ## Installation
 
 ```bash
-pnpm add @naxit/comete-illustrations
+pnpm add @aexae/comete-illustrations
 ```
 
 ## Utilisation
 
 ```tsx
-import { EmptyStateNoData } from "@naxit/comete-illustrations";
+import { EmptyStateNoData } from "@aexae/comete-illustrations";
 
 function MyEmptyState() {
   return (
@@ -26,13 +26,13 @@ function MyEmptyState() {
 ### Import individuel (tree-shaking)
 
 ```tsx
-import { EmptyStateNoData } from "@naxit/comete-illustrations/illustrations/EmptyStateNoData";
+import { EmptyStateNoData } from "@aexae/comete-illustrations/illustrations/EmptyStateNoData";
 ```
 
 ### Registry (rendu dynamique)
 
 ```tsx
-import { illustrationRegistry } from "@naxit/comete-illustrations";
+import { illustrationRegistry } from "@aexae/comete-illustrations";
 
 function DynamicIllustration({ name }: { name: IllustrationName }) {
   const Component = illustrationRegistry[name];
@@ -43,7 +43,7 @@ function DynamicIllustration({ name }: { name: IllustrationName }) {
 ### Par catégorie
 
 ```tsx
-import { illustrationsByCategory } from "@naxit/comete-illustrations";
+import { illustrationsByCategory } from "@aexae/comete-illustrations";
 
 // Lister toutes les illustrations d'une catégorie
 const emptyStateNames = illustrationsByCategory["empty-state"];

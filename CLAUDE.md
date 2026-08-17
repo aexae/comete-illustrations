@@ -14,7 +14,7 @@ empty states, onboarding, erreurs, succès, etc.
 - Biome pour le lint/format
 - Vitest pour les tests
 - pnpm comme package manager
-- Publication sur GitHub Packages (@naxit scope)
+- Publication sur GitHub Packages (@aexae scope)
 
 ## Architecture
 

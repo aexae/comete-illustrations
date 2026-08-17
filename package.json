@@ -1,6 +1,6 @@
 {
-  "name": "@naxit/comete-illustrations",
-  "version": "0.1.0-alpha.3",
+  "name": "@aexae/comete-illustrations",
+  "version": "0.1.0-alpha.4",
   "description": "Comète illustration library — React components for empty states, onboarding, and contextual visuals",
   "type": "module",
   "main": "dist/index.js",
@@ -59,6 +59,6 @@
   "license": "AGPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "https://github.com/naxit/comete-illustrations.git"
+    "url": "https://github.com/aexae/comete-illustrations.git"
   }
 }
