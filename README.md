@@ -80,6 +80,16 @@ Les frames d'illustration suivent la convention :
 - `Category/NomEnPascalCase` — avec catégorie (ex: `empty-state/NoData`)
 - `NomEnPascalCase` — sans catégorie
 
+## Publication
+
+Automatisée par la CI (`.github/workflows/publish.yml`) au push d'un tag `v*`, via le `GITHUB_TOKEN` d'Actions (`packages: write`), aucun PAT requis. Les pré-releases (tag contenant `-`) sont publiées sous le dist-tag `alpha`.
+
+```bash
+# bump la version dans package.json, committer, puis :
+git tag v0.1.0-alpha.5
+git push origin main v0.1.0-alpha.5   # le tag déclenche le workflow Publish
+```
+
 ## Stack
 
 React 18/19 · TypeScript strict · SVGO 3 · tsup · Biome · Vitest · Figma source
