@@ -1,6 +1,6 @@
 {
   "name": "@aexae/comete-illustrations",
-  "version": "0.1.0-alpha.4",
+  "version": "0.1.0-alpha.5",
   "description": "Comète illustration library — React components for empty states, onboarding, and contextual visuals",
   "type": "module",
   "main": "dist/index.js",

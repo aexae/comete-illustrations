@@ -93,6 +93,7 @@ function convertInlineStyles(content: string): string {
 /** Convert SVG attributes to JSX (kebab-case → camelCase) */
 function svgToJsx(svgContent: string): string {
   return convertInlineStyles(svgContent)
+    .replace(/clip-path/g, "clipPath")
     .replace(/clip-rule/g, "clipRule")
     .replace(/fill-rule/g, "fillRule")
     .replace(/fill-opacity/g, "fillOpacity")
